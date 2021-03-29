@@ -13,3 +13,10 @@ Membro      | Competências
 ------------|-------------
 Bruno       | Python, Git
 Higor       | ...
+
+## Perfis dos Usuários
+
+Perfil      | Descrição
+------------|----------
+Gerente     | Esse usuário pode realizar vendas, controle de estoque e pode realizar qualquer função.
+Vendedor    | Esse usuário pode realizar vendas.
