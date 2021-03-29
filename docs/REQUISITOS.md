@@ -27,6 +27,10 @@ Requisito       | Descrição     | Ator
 ----------------|---------------|-----
 RF001 - Manter um cadastro de produtos | Um produto representa uma mercadoria no estoque. Um produto tem código, nome, quantidade e preço. | Gerente
 
+## Modelo Conceitual
+
+Modelo de entidade relacional
+
 ## Lista de Requisitos Não-Funcionais
 
 Requisito       | Descrição
