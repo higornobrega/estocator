@@ -33,6 +33,10 @@ RF005       | Adicionar de Gerente
 RF006       | Excluir Gerente
 RF007       | Listar Gerente
 RF008       | Alterar Gerente
+RF009       | Adicionar Vendedor
+RF010       | Excluir Vendedor
+RF011       | Listar Vendedor
+RF012       | Alterar Vendedor
 
 ## Modelo Conceitual
 
