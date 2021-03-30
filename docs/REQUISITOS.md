@@ -50,6 +50,8 @@ RF020       | Listar Cliente
 
 Modelo de entidade relacional
 
+![MER](https://github.com/Kmiokande/estocator/blob/main/docs/MER.png)
+
 ## Lista de Requisitos Não-Funcionais
 
 Requisito       | Descrição
