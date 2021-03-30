@@ -91,3 +91,28 @@ RF012                   | Listar Vendedor
 | **TA03.02** | O gerente informa na tela de cadastrar um novo vendedor com os dados incorretos, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
 | **TA03.03** | O gerente informa na tela de cadastrar um novo vendedor com os dados existentes, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o vendedor que você está tentando cadastrar já existe!
 | **TA03.04** | O gerente clicar em excluir um vendedor ele é informado por um alerta se realmente quer excluir o vendedor selecionado, se clicar em sim irá aparecer uma mensagem de sucesso. Mensagem: Vendedor excluído com sucesso!
+
+## User Story US04 - Abrir Caixa
+
+|               |                             |
+|---------------|-----------------------------|
+| **Descrição** | O sistema deve abrir o caixa "zerado" para começar a receber os produtos e comtabilizar as vendas, onde o Caixa será aberto por um gerente.
+
+Requisitos Envolvidos   |               |
+------------------------|---------------|
+RF013                   | Abrir Caixa
+
+|         |                                   |
+| --------|-----------------------------------|
+| **Prioridade**            | Essencial
+| **Estimativa**            | 8 h
+| **Tempo Gasto (real):**   |
+| **Tamanho Funcional**     | 7 PF
+
+### Testes de Aceitação (TA)
+
+| Código        | Descrição
+|---------------|----------
+| **TA04.01** | O gerente informa na tela de Caixa o caixa aberto, todos os dados que são pedidos e ao clicar em "Abrir" uma mensagem de sucesso é mostrada. Mensagem: Caixa aberto com sucesso!
+| **TA04.02** | O gerente informa na tela de Caixa o caixa aberto, com os dados incorretos, ao clicar em "Abrir" ele é informado com uma mensagem de erro. Mensagem: Caixa não Aberto, o campo “xxxx” não foi informado corretamente!
+| **TA04.03** | O gerente informa na tela de Caixa um caixa já aberto, ao clicar em "Abrir" ele é informado com uma mensagem de erro. Mensagem: O Caixa já está aberto!
