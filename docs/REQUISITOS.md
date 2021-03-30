@@ -41,6 +41,10 @@ RF013       | Abrir Caixa
 RF014       | Fechar Caixa
 RF015       | Vender Produto
 RF016       | Devolver Produto
+RF017       | Adicionar Cliente
+RF018       | Alterar Cliente
+RF019       | Excluir Cliente
+RF020       | Listar Cliente
 
 ## Modelo Conceitual
 
