@@ -29,7 +29,7 @@ RF001       | Adicionar produtos
 RF002       | Alterar produtos
 RF003       | Excluir produtos
 RF004       | Listar produtos
-RF005       | Adicionar de Gerente
+RF005       | Adicionar Gerente
 RF006       | Excluir Gerente
 RF007       | Listar Gerente
 RF008       | Alterar Gerente
