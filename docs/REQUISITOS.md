@@ -23,9 +23,12 @@ Vendedor    | Esse usuário pode realizar vendas.
 
 ## Lista de Requisitos Funcionais
 
-Requisito       | Descrição     | Ator
-----------------|---------------|-----
-RF001 - Manter um cadastro de produtos | Um produto representa uma mercadoria no estoque. Um produto tem código, nome, quantidade e preço. | Gerente
+Requisito|
+---------|
+RF001 - Adicionar produtos|
+RF002 - Alterar produtos|
+RF003 - Excluir produtos|
+RF004 - Listar produtos|
 
 ## Modelo Conceitual
 
