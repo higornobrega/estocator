@@ -23,12 +23,12 @@ Vendedor    | Esse usuário pode realizar vendas.
 
 ## Lista de Requisitos Funcionais
 
-Requisito|
----------|
-RF001 - Adicionar produtos|
-RF002 - Alterar produtos|
-RF003 - Excluir produtos|
-RF004 - Listar produtos|
+Índice      | Requisito
+------------|----------
+RF001       | Adicionar produtos
+RF002       | Alterar produtos
+RF003       | Excluir produtos
+RF004       | Listar produtos
 
 ## Modelo Conceitual
 
