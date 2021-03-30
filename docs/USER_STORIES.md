@@ -27,6 +27,7 @@ RF004                   | Listar produtos
 | **Tamanho Funcional**     | 7 PF
 
 ### Testes de Aceitação (TA)
+
 | Código        | Descrição
 |---------------|----------
 | **TA01.01** | O gerente informa na tela de cadastrar produto, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Produto cadastrado com sucesso!
@@ -53,6 +54,7 @@ RF008                   | Listar Gerente
 | **Tamanho Funcional**     | 7 PF
 
 ### Testes de Aceitação (TA)
+
 | Código        | Descrição
 |---------------|----------
 | **TA02.01** | O gerente informa na tela de cadastrar um novo gerente, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Gerente cadastrado com sucesso!
@@ -82,6 +84,7 @@ RF012                   | Listar Vendedor
 | **Tamanho Funcional**     | 7 PF
 
 ### Testes de Aceitação (TA)
+
 | Código        | Descrição
 |---------------|----------
 | **TA03.01** | O gerente informa na tela de cadastrar um novo vendedor, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Vendedor cadastrado com sucesso!
