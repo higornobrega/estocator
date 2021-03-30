@@ -55,6 +55,36 @@ RF008                   | Listar Gerente
 ### Testes de Aceitação (TA)
 | Código        | Descrição
 |---------------|----------
-| **TA01.01** | O gerente informa na tela de cadastrar um novo gerente, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Gerente cadastrado com sucesso!
-| **TA01.02** | O gerente informa na tela de cadastrar um novo gerente com os dados incorretos, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
-| **TA01.03** | O gerente informa na tela de cadastrar um novo gerente com os dados existentes, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o gerente que você está tentando cadastrar já existe!
+| **TA02.01** | O gerente informa na tela de cadastrar um novo gerente, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Gerente cadastrado com sucesso!
+| **TA02.02** | O gerente informa na tela de cadastrar um novo gerente com os dados incorretos, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
+| **TA02.03** | O gerente informa na tela de cadastrar um novo gerente com os dados existentes, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o gerente que você está tentando cadastrar já existe!
+| **TA02.04** | O gerente clica em excluir um outro gerente ele é informado por um alerta se realmente quer excluir o gerente selecionado, se clicar em sim irá aparecer uma mensagem de sucesso. Mensagem: Gerente excluído com sucesso!
+| **TA02.05** | O gerente não pode excluir o próprio cadastro se só tiver ele. Mensagem: Você não pode excluir sua conta, o sistema precisa de no mínimo um gerente!
+
+## User Story US03 - Manter Vendedor
+
+|               |                             |
+|---------------|-----------------------------|
+| **Descrição** | O sistema deve manter um cadastro de vendedores, onde o perfil poderá ser criado por um gerente. Um vendedor tem os atributos, id, nome, email, data de nascimento, endereço e cpf.
+
+Requisitos Envolvidos   |               |
+------------------------|---------------|
+RF009                   | Adicionar Vendedor
+RF010                   | Alterar Vendedor
+RF011                   | Excluir Vendedor
+RF012                   | Listar Vendedor
+
+|         |                                   |
+| --------|-----------------------------------|
+| **Prioridade**            | Essencial
+| **Estimativa**            | 8 h
+| **Tempo Gasto (real):**   |
+| **Tamanho Funcional**     | 7 PF
+
+### Testes de Aceitação (TA)
+| Código        | Descrição
+|---------------|----------
+| **TA03.01** | O gerente informa na tela de cadastrar um novo vendedor, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Vendedor cadastrado com sucesso!
+| **TA03.02** | O gerente informa na tela de cadastrar um novo vendedor com os dados incorretos, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
+| **TA03.03** | O gerente informa na tela de cadastrar um novo vendedor com os dados existentes, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o vendedor que você está tentando cadastrar já existe!
+| **TA03.04** | O gerente clicar em excluir um vendedor ele é informado por um alerta se realmente quer excluir o vendedor selecionado, se clicar em sim irá aparecer uma mensagem de sucesso. Mensagem: Vendedor excluído com sucesso!
