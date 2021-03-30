@@ -39,6 +39,8 @@ RF011       | Listar Vendedor
 RF012       | Alterar Vendedor
 RF013       | Abrir Caixa
 RF014       | Fechar Caixa
+RF015       | Vender Produto
+RF016       | Devolver Produto
 
 ## Modelo Conceitual
 
