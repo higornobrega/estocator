@@ -37,6 +37,8 @@ RF009       | Adicionar Vendedor
 RF010       | Excluir Vendedor
 RF011       | Listar Vendedor
 RF012       | Alterar Vendedor
+RF013       | Abrir Caixa
+RF014       | Fechar Caixa
 
 ## Modelo Conceitual
 
