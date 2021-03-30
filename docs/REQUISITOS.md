@@ -12,7 +12,7 @@ Higor       | Desenvolvedor, Testador | higorst.nobrega@gmail.com
 Membro      | Competências
 ------------|-------------
 Bruno       | Python, Git
-Higor       | ...
+Higor       | Python, Git, JavaScript, React, React Native
 
 ## Perfis dos Usuários
 
