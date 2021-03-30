@@ -31,3 +31,30 @@ RF004                   | Listar produtos
 |---------------|----------
 | **TA01.01** | O gerente informa na tela de cadastrar produto, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Produto cadastrado com sucesso!
 | **TA01.02** | O gerente informa na tela de cadastrar produto os dados incorretamente, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
+
+## User Story US02 - Manter Gerente
+
+|               |                             |
+|---------------|-----------------------------|
+| **Descrição** | O sistema deve manter um cadastro de gerentes, onde o perfil poderá ser criado por outro gerente. Um gerente tem os atributos, id, nome, email, data de nascimento, endereço e cpf.
+
+Requisitos Envolvidos   |               |
+------------------------|---------------|
+RF005                   | Adicionar Gerente
+RF006                   | Alterar Gerente
+RF007                   | Excluir Gerente
+RF008                   | Listar Gerente
+
+|         |                                   |
+| --------|-----------------------------------|
+| **Prioridade**            | Essencial
+| **Estimativa**            | 8 h
+| **Tempo Gasto (real):**   |
+| **Tamanho Funcional**     | 7 PF
+
+### Testes de Aceitação (TA)
+| Código        | Descrição
+|---------------|----------
+| **TA01.01** | O gerente informa na tela de cadastrar um novo gerente, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Gerente cadastrado com sucesso!
+| **TA01.02** | O gerente informa na tela de cadastrar um novo gerente com os dados incorretos, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
+| **TA01.03** | O gerente informa na tela de cadastrar um novo gerente com os dados existentes, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o gerente que você está tentando cadastrar já existe!
