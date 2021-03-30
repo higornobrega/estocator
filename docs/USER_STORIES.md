@@ -165,3 +165,27 @@ RF015                   | Vender Produto
 | **TA06.01** | O vendedor informa na tela de venda o código do produto, todos os dados são mostrados na tela.
 | **TA06.02** | O vendedor informa na tela de venda o código do produto errado, ao clicar em "Fechar Venda" ele é informado com uma mensagem de erro. Mensagem: Produto não cadastrado ou código errado!
 
+## User Story US07 - Devolver Produto
+
+|               |                             |
+|---------------|-----------------------------|
+| **Descrição** | Ao colocar o código do produto na tela de devolução ele irá identificar e mostrar os atributos e ao vendedor clicar em Devolver o produto é recolocado no estoque e retirado ao cadastro do cliente.
+
+Requisitos Envolvidos   |               |
+------------------------|---------------|
+RF016                   | Devolver Produto
+
+|         |                                   |
+| --------|-----------------------------------|
+| **Prioridade**            | Essencial
+| **Estimativa**            | 8 h
+| **Tempo Gasto (real):**   |
+| **Tamanho Funcional**     | 7 PF
+
+### Testes de Aceitação (TA)
+
+| Código        | Descrição
+|---------------|----------
+| **TA07.01** | O vendedor informa na tela de devolução o código do produto, todos os dados são mostrados na tela.
+| **TA07.02** | O vendedor informa na tela de devolução o código do produto errado, ao clicar em "Devolver" ele é informado com uma mensagem de erro. Mensagem: Produto não cadastrado ou código errado!
+
