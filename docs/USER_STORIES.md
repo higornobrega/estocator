@@ -26,8 +26,8 @@ RF004                   | Listar produtos
 | **Tempo Gasto (real):**   |
 | **Tamanho Funcional**     | 7 PF
 
-| Testes de Aceitação (TA) |  |
-| ----------- | --------- |
-| **Código**      | **Descrição** |
+### Testes de Aceitação (TA)
+| Código        | Descrição
+|---------------|----------
 | **TA01.01** | O gerente informa na tela de cadastrar produto, todos os dados que são pedidos e ao clicar em salvar uma mensagem de sucesso é mostrada. Mensagem: Produto cadastrado com sucesso!
 | **TA01.02** | O gerente informa na tela de cadastrar produto os dados incorretamente, ao clicar em salvar ele é informado com uma mensagem de erro. Mensagem: Cadastro não realizado, o campo “xxxx” não foi informado corretamente!
