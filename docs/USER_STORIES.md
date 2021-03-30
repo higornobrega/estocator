@@ -53,7 +53,7 @@ RF008                   | Listar Gerente
 | **Tempo Gasto (real):**   |
 | **Tamanho Funcional**     | 7 PF
 
-### Testes de Aceitação (TA)
+### Testes de Aceitação(TA)
 
 | Código        | Descrição
 |---------------|----------
@@ -83,7 +83,7 @@ RF012                   | Listar Vendedor
 | **Tempo Gasto (real):**   |
 | **Tamanho Funcional**     | 7 PF
 
-### Testes de Aceitação (TA)
+### Testes de Aceitação(TA)
 
 | Código        | Descrição
 |---------------|----------
@@ -109,10 +109,33 @@ RF013                   | Abrir Caixa
 | **Tempo Gasto (real):**   |
 | **Tamanho Funcional**     | 7 PF
 
-### Testes de Aceitação (TA)
+### Testes de Aceitação(TA)
 
 | Código        | Descrição
 |---------------|----------
 | **TA04.01** | O gerente informa na tela de Caixa o caixa aberto, todos os dados que são pedidos e ao clicar em "Abrir" uma mensagem de sucesso é mostrada. Mensagem: Caixa aberto com sucesso!
 | **TA04.02** | O gerente informa na tela de Caixa o caixa aberto, com os dados incorretos, ao clicar em "Abrir" ele é informado com uma mensagem de erro. Mensagem: Caixa não Aberto, o campo “xxxx” não foi informado corretamente!
 | **TA04.03** | O gerente informa na tela de Caixa um caixa já aberto, ao clicar em "Abrir" ele é informado com uma mensagem de erro. Mensagem: O Caixa já está aberto!
+
+## User Story US04 - Fechar Caixa
+
+|               |                             |
+|---------------|-----------------------------|
+| **Descrição** | O sistema deve Fechar o caixa com o valor colocado inicialmente mais os das vendas feitas até aquele momento, onde o Caixa será fechado por um gerente.
+
+Requisitos Envolvidos   |               |
+------------------------|---------------|
+RF014                   | Fechar Caixa
+
+|         |                                   |
+| --------|-----------------------------------|
+| **Prioridade**            | Essencial
+| **Estimativa**            | 8 h
+| **Tempo Gasto (real):**   |
+| **Tamanho Funcional**     | 7 PF
+
+### Testes de Aceitação(TA)
+
+| Código        | Descrição
+|---------------|----------
+| **TA04.01** | O gerente clica em "Fechar Caixa" na tela de Caixa. É informado data e hora de abertura e fechamento do caixa com o valor areecadado no período. Mensagem: Caixa aberto com sucesso!
