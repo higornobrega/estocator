@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from backend import app
+from app import app
 
 
 class APITestCase(unittest.TestCase):
