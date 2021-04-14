@@ -20,6 +20,6 @@ $ python manage.py runserver 8080
 
 ## Documentação
 
-[Documento de Visão](https://github.com/Kmiokande/estocator/blob/main/docs/REQUISITOS.md)
+[Documento de Visão](/docs/REQUISITOS.md)
 
-[Lista de User Stories](https://github.com/Kmiokande/estocator/blob/main/docs/USER_STORIES.md)
+[Lista de User Stories](/docs/USER_STORIES.md)
